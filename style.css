@@ -157,7 +157,7 @@ input {
 
     @media(max-width:746px){
         body{
-            height: 150vh;
+            height: 120vh;
         }
         .sec{
             display: flex;
@@ -189,7 +189,7 @@ input {
 
 }
 .calculator{
-    width: 325px;
+    width: 300px;
 }
 .two-inputs {
   display: flex;
