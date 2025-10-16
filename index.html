@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec"> 
+            <div id="child" class="fir">
+                <div class="clear">
+                    <h3>Mortgage Calculator</h3>
+                    <p><a href="">Clear All</a></p>
+                </div>
+
+                <div class="calculator">
+    <div class="input-group">
+      <label for="amount">Mortgage Amount</label>
+      <div class="input-box">
+        <span class="prefix">£</span>
+        <input id="amount">
+      </div>
+    </div>
+
+    <div class="two-inputs">
+      <div class="input-group">
+        <label for="term">Mortgage Term</label>
+        <div class="input-box">
+          <input id="term" >
+          <span class="suffix">years</span>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="rate">Interest Rate</label>
+        <div class="input-box">
+          <input id="rate">
+          <span class="suffix">%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+                <div>
+                    <p class="mo">Mortgage Type</p>
+                    <div  class="rad">
+                        <input type="radio"><span id="re"><b>Repayment</b></span>
+                    </div>
+                    <div class="rad">
+                        <input type="radio"><span id="re"><b>Interest Only</b></span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <img src="./assets/images/icon-calculator.svg" alt="">
+            <p>Calculate Repayments</p>
+
+                </div>
+            
+            </div>
+        <div class="second" id="child">
+                <img src="./assets/images/illustration-empty.svg" alt="" width="170px">
+                <h2 class="ff">Results shown here</h2>
+                <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
+            </div>
+    </section>
+</body>
+</html>
